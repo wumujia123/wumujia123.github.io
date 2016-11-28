@@ -1,0 +1,18 @@
+<ion-view view-title="商品详情页">
+    <ion-nav-buttons side="right">
+        <button class="button button-icon ion-home" ui-sref="tabs.home"></button>
+    </ion-nav-buttons>
+
+    <ion-content>
+        <div class="list card">
+            <h3 class="item item-divider" style="text-align: center;white-space: normal;-ms-text-overflow: clip;padding:0 30px;font: bold 20px/30px '微软雅黑'">{{product.title}}</h3>
+            <p class="item" style="color: #ff3122;"><b>最惠价：</b>{{product.price | currency:"RMB ￥"}}</p>
+            <p class="item" style="white-space: normal;-ms-text-overflow: clip;"><b>最描述：</b>{{product.desc}}</p>
+            <p class="item item-image"><img ng-src="{{product.imgsrc}}"></p>
+
+        </div>
+        <button class="button button-assertive button-full" ng-click="add(product)">
+            加入购物车
+        </button>
+    </ion-content>
+</ion-view>

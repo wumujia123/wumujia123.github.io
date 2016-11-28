@@ -1,0 +1,9 @@
+*{margin: 0;padding: 0}
+html{font-size: 10px}
+ul,ol{list-style: none}
+img{border: none}
+i{font-family:none}
+a{ text-decoration:none}
+.clear {zoom:1;}
+.clear :after {content:"";clear:both;;display:block;width: 0;height: 0;visibility:hidden;}
+

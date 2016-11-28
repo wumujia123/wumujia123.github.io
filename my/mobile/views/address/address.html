@@ -1,0 +1,56 @@
+<ion-view view-title="地址信息">
+    <ion-content id="address">
+        <div class="list">
+            <form class="form" name="shippingForm" novalidate>
+                <h3></h3>
+                <div class="item item-input item-floating-label">
+                    <span style="font-weight: bold" class="input-label">收货人:</span>
+                    <input name="name" type="text" placeholder="收货人"
+                           class="textbox" ng-model="data.name" required/>
+                </div>
+                <p class="error" ng-show="shippingForm.name.$error.required && shippingForm.name.$dirty">
+                请输入姓名
+                </p>
+                <div class="item item-input item-floating-label">
+                    <span style="font-weight: bold" class="input-label">城市:</span>
+                    <input name="city" type="text" placeholder="城市"
+                           class="textbox" ng-model="data.city" required/>
+                </div>
+                <p class="error" ng-show="shippingForm.city.$error.required && shippingForm.city.$dirty">
+                请输入城市
+                </p>
+                <div class="item item-input item-floating-label">
+                    <span style="font-weight: bold" class="input-label">地址:</span>
+                    <input name="address" type="text" placeholder="地址"
+                           class="textbox" ng-model="data.address" required/>
+                </div>
+                <p class="error" ng-show="shippingForm.address.$error.required && shippingForm.address.$dirty">
+                请输入地址
+                </p>
+                <div class="item item-input item-floating-label">
+                    <span style="font-weight: bold" class="input-label">邮编:</span>
+                    <input name="postcode" type="text" placeholder="邮编"
+                           class="textbox" ng-model="data.postcode" required/>
+                </div>
+                <p class="error" ng-show="!numberFilter(data.postcode) && shippingForm.postcode.$dirty">
+                请输入正确的邮编
+                </p>
+
+                <div class="item item-input item-floating-label">
+                    <span style="font-weight: bold" class="input-label">电话:</span>
+                    <input name="phone" type="text" placeholder="电话"
+                           class="textbox" ng-model="data.phone" required/>
+                </div>
+                <p class="error" ng-show="!numberFilter(data.phone) && shippingForm.phone.$dirty">
+                请输入正确的电话
+                </p>
+                <button class="button button-full" style="background-color: rgb(239, 222, 204); color:#000;margin-top: 50px;"
+                            class="button button-positive"
+                            ng-click="showConfirm()"
+                            ng-disabled="shippingForm.$invalid || !numberFilter(data.postcode) || !numberFilter(data.phone)">
+                        确认提交
+                </button>
+            </form>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,58 @@
+.gradient{
+    background: -moz-linear-gradient(top, #4758ff 0%, #0171c5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4758ff), color-stop(100%,#0171c5));
+    background: -webkit-linear-gradient(top, #4758ff 0%,#0171c5 100%);
+    background: -o-linear-gradient(top, #4758ff 0%,#0171c5 100%);
+    background: -ms-linear-gradient(top, #4758ff 0%,#0171c5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4758ff', endColorstr='#0171c5',GradientType=0 );
+    background: linear-gradient(to bottom, #4758ff 0%,#0171c5 100%);
+}
+#bgImg{width: 100%;height: 100%;position: absolute;overflow: hidden;}
+#bgImg img{width: 100%;height: 100%;transition: transform 6s linear;}
+.borderBot{border-bottom: 1px solid #dddddd}
+.displayNone{display: none}
+html{font-size:20px;font-family: "宋体"}
+.wrap{width: 55.35rem;height: 30rem;position: relative;z-index: 2;top: 1.55rem;left: 5.3rem;}
+#leftFrame{width: 15rem;float: left;height: 100%;}
+#rightFrame{width: 38.1rem;float: right;height: 100%;padding: 0 0.75rem;background: #eeeeee;overflow: auto}
+#leftFrame .personalPic{height: 8.5rem;padding-top: 1.5rem}
+#leftFrame .personalPic .pic{width: 7.5rem;height: 7.5rem;border-radius: 50%;border: 0.5rem solid #7884f7;margin: 0 auto;background-image: url("../images/p.jpg");background-size: cover}
+#leftFrame .content{width: 13.5rem;margin: 0 auto;color: #dddddd;padding-top: 1rem}
+#leftFrame .personalName{height: 1.5rem;text-align: center;font-size: 1.5rem}
+#leftFrame .personalWork{height: 0.85rem;padding-top: 0.65rem;text-align: center;font-size: 1.2rem}
+#leftFrame .personalCity{height: 2.1rem;padding-top: 0.9rem;text-align: center;font-size: 1rem}
+#leftFrame .personalAssess{font-size: 0.6rem;line-height: 1.25rem;font-family: "微软雅黑"}
+#rightFrame  .context1{overflow: hidden}
+#rightFrame  .context1 .ctxLeft{float: left;width: 19.8rem;color: #ff4343;}
+#rightFrame  .context1 .ctxRight{float: right;width: 17rem;}
+#rightFrame  .context1 .ctxRight .skill{font-size: 1rem;color:#ff4343;height: 2rem;line-height:2rem }
+#rightFrame  .context1 .ctxRight ol{font-size: 0.7rem;line-height:1.3rem}
+#rightFrame  .context1 .ctxLeft dt{height: 3rem;line-height: 3rem;font-size: 1rem;}
+#rightFrame  .context1 .ctxLeft dd{height: 2.5rem;line-height: 2.5rem;font-size: 0.8rem;}
+#rightFrame  .context1 .ctxLeft dd span{color: #333333}
+
+#rightFrame .title{height: 3.45rem;color: #ff6f69;padding-left: 5rem;line-height: 3.45rem}
+#rightFrame  .content2  .ctxLeft{float: left;width: 17.2rem;color: #ff4343;font-size: 0.8rem;}
+#rightFrame  .content2 .ctxLeft dl{width: 100%;padding-bottom:1rem }
+#rightFrame  .content2 .ctxLeft dt{height: 3rem;line-height: 3rem;font-weight: bold}
+#rightFrame  .content2 .ctxLeft dd{height: 1.2rem;margin-top: 1rem;background-color: #ff6f69;position: relative}
+#rightFrame  .content2 .ctxLeft dd span{padding: 0 1rem;background-color: #ff4343;color: #ffffff;position: absolute;height: 1.2rem;top: 0;left: 0;line-height: 1.2rem}
+#rightFrame  .content2 .ctxLeft dd i{position: absolute;height: 1.2rem;top: 0;right: -2rem;line-height: 1.2rem;color: #555555;}
+
+#rightFrame  .content2 .ctxRight{float: right;width: 17.9rem;}
+#rightFrame  .content2 .ctxRight .experience{height: 3rem;line-height: 3rem;color: #ff6f69}
+#rightFrame  .content2 .work{font-size: 0.7rem;color: #666666}
+#rightFrame  .content2 .worker{height: 2rem;line-height: 2rem;color: #333333;position: relative;width: 100%;border-bottom:1px solid #ff6f69 }
+#rightFrame  .content2 .worker span{position: absolute;top: 0;right: 0;color: #ff6f69;}
+#rightFrame  .content2 .work .company{color:#ff6f69; height: 1.5rem;line-height: 1.5rem;font-size: 0.7rem}
+#rightFrame  .content2 .work .workContent{ height: 1.5rem;line-height: 1.5rem;}
+#rightFrame  .content2 .work .workDetail{padding-left: 2.3rem ;line-height: 1rem;padding-bottom: 1.5rem}
+
+#rightFrame  .content3{height: 25rem;overflow: hidden;margin-top: 10px}
+#rightFrame  .content3 .jsBaidu a{ height:2rem; line-height:2rem; display:block; color:#666}
+#rightFrame  .content3 .jsBaidu a:hover{color: red}
+#Floor{position: absolute;top: 0;left: -4.5rem}
+#Floor li{width:3.8rem ;height: 2rem;background-color: #4758ff;margin-top: 3px;border-radius: 50%;text-align: center;line-height: 2rem;font-size: 14px}
+#Floor li:hover{background-color:#ffffff}
+#Floor li:nth-child(3){font-weight: bolder;color: red}
+#Floor .ac{background: #ffffff}

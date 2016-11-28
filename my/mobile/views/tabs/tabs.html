@@ -1,0 +1,19 @@
+<!--选项卡-->
+<ion-tabs class="tabs-light tabs-icon-top tabs-striped">
+
+    <ion-tab title="最数码" icon-on="icon ion-ios-home"
+             icon-off="icon ion-ios-home-outline" ui-sref="tabs.home">
+        <ion-nav-view name="tab-home"></ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="最酷购" icon-on="icon ion-ios-pricetags"
+             icon-off="icon ion-ios-pricetags-outline" ui-sref="tabs.products">
+        <ion-nav-view name="tab-products"></ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="购物车" icon-on="icon ion-ios-cart"
+             icon-off="icon ion-ios-cart-outline"
+             badge="buyNumber()" badge-style="badge-balanced" ui-sref="tabs.cart">
+        <ion-nav-view name="tab-cart"></ion-nav-view>
+    </ion-tab>
+</ion-tabs>

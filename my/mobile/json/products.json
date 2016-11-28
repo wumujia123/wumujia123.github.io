@@ -1,0 +1,114 @@
+[
+  {
+    "id":"01",
+    "title":"玩家国度GT51游戏台式主机",
+    "price":29999.00,
+    "desc":"i7-6700K 3TB+512GSSD+512GSSD 16G*4 GTX1080-SLI 16G显存",
+    "imgsrc":"images/pro3.jpg"
+  },
+  {
+    "id":"02",
+    "title":"外星人Alienware Aurora R5 R1838水冷游戏电脑主机",
+    "price":14999.00,
+    "desc":"i7-6700K 16G 256G SSD+2T GTX 1070 8G独显 Win10",
+    "imgsrc":"images/pro5.jpg"
+  },
+  {
+    "id":"03",
+    "title":"技嘉（GIGABYTE） GTX1080 G1 GAMING",
+    "price":4999.00,
+    "desc":"1695-1835MHz/10010MHz 8G/256bit GDDR5X显卡",
+    "imgsrc":"images/pro1.jpg"
+  },
+  {
+    "id":"04",
+    "title":"索泰（ZOTAC）GeForce GTX1080-8GD5X至尊PLUS OC",
+    "price":5199.00,
+    "desc":"1721-1860MHz/10110MHz 8G/256bit GDDR5X PCI-E显卡",
+    "imgsrc":"images/pro9.jpg"
+  },
+  {
+    "id":"05",
+    "title":"微星 MSI GTX 1080 GAMING X",
+    "price":5699.00,
+    "desc":"8G 256BIT GDDR5X PCI-E 3.0显卡",
+    "imgsrc":"images/pro10.jpg"
+  },
+  {
+    "id":"06",
+    "title":"华硕（ASUS）ROG STRIX-GTX1080-8G-GAMING猛禽战骁版",
+    "price":5899.00,
+    "desc":"1771-1861MHz/10110MHz 8G/256bit GDDR5X PCI-E显卡",
+    "imgsrc":"images/pro11.jpg"
+  },
+  {
+    "id":"07",
+    "title":"原装日版EIZO艺卓CG318专业制图设计视频处理显示器",
+    "price":39999.00,
+    "desc":"4096x2160最大分辨率，Aobe RGB涵盖率98%",
+    "imgsrc":"images/pro12.jpg"
+  },
+  {
+    "id":"08",
+    "title":"戴尔（DELL）UP2715K 5K液晶显示器",
+    "price":14999.00,
+    "desc":"27英寸 16:9宽屏 LED背光IPS屏",
+    "imgsrc":"images/pro13.jpg"
+  },
+  {
+    "id":"09",
+    "title":"华硕（ASUS）ROG玩家国度 电竞信仰灯圈液晶显示器",
+    "price":6499.00,
+    "desc":"27英寸IPS硬屏4K分辨率60Hz G-SYNC",
+    "imgsrc":"images/pro14.jpg"
+  },
+  {
+    "id":"10",
+    "title":"惠普（HP）DreamColor Z27X 27英寸IPS面板液晶显示器",
+    "price":9999.00,
+    "desc":"4万亿内置调色板 支持4K输入7种预设色域值",
+    "imgsrc":"images/pro15.jpg"
+  },
+  {
+    "id":"11",
+    "title":"MAD CATZ R.A.T.PRO X 豪华版新概念游戏鼠标",
+    "price":1699.00,
+    "desc":"3种传感器，超高dpi，骨灰级游戏鼠标",
+    "imgsrc":"images/pro16.jpg"
+  },
+  {
+    "id":"12",
+    "title":"雷蛇(Razer) 那伽梵蛇Naga Epic Chroma MMO无线鼠标",
+    "price":899.00,
+    "desc":"MMO游戏鼠标旗舰鼠标，无线充电底座，信仰加成！",
+    "imgsrc":"images/pro17.jpg"
+  },
+  {
+    "id":"13",
+    "title":"海盗船键盘（USCorsair）K70 K95 惩戒者 机械游戏键盘",
+    "price":1699.00,
+    "desc":"RGB幻彩背光 黑色 K95RGB幻彩背光机械游戏键盘 红轴",
+    "imgsrc":"images/pro18.jpg"
+  },
+  {
+    "id":"14",
+    "title":"斐尔可（FILCO）FKBN87M/EMU2「87圣手二代」机械键盘",
+    "price":1399.00,
+    "desc":"有线键盘；机械键盘；游戏键盘；人体工学键盘,DIY设计 无线可能！",
+    "imgsrc":"images/pro19.jpg"
+  },
+  {
+    "id":"15",
+    "title":"玩家国度GT51游戏台式主机",
+    "price":29999.00,
+    "desc":"DTS环绕立体声 主动降噪超长待机 游戏耳机旗舰品牌，值得信赖！",
+    "imgsrc":"images/pro20.jpg"
+  },
+  {
+    "id":"16",
+    "title":"赛睿（SteelSeries）西伯利亚 P800 PlayStation4 耳机",
+    "price":29999.00,
+    "desc":"DTS环绕立体声 主动降噪超长待机",
+    "imgsrc":"images/pro21.jpg"
+  }
+]

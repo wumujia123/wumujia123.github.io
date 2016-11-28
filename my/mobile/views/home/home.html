@@ -1,0 +1,68 @@
+<ion-view view-title="最数码" hide-back-button="true">
+    <ion-content>
+        <div class="item item-input-inset" style="padding:5px"><!--inset:说明内有嵌入的input-->
+            <div class="item-input-wrapper">
+                <i class="icon ion-search placeholder-icon"></i>
+                <input style="height:20px;font:14px/20px '微软雅黑';" type="search" placeholder="最搜索"/>
+            </div>
+        </div>
+        <ion-slide-box auto-play="true"
+                       slide-interval="2000"
+                       does-continue="true"
+                       show-pager="true"
+                       active-slide="activeIndex"
+                       pager-click="pagerClick(index)"
+                       on-slide-changed="onSlideChanged(index)">
+            <ion-slide>
+                <div class="box"><img style="text-align:center;width:100%" src="images/slide1.jpg"></div>
+            </ion-slide>
+            <ion-slide>
+                <div class="box"><img style="text-align:center;width:100%" src="images/slide2.jpg"></div>
+            </ion-slide>
+            <ion-slide>
+                <div class="box"><img style="text-align:center;width:100%" src="images/slide3.jpg"></div>
+            </ion-slide>
+            <ion-slide>
+                <div class="box"><img style="text-align:center;width:100%" src="images/dell.jpg"></div>
+            </ion-slide>
+        </ion-slide-box>
+        <div class="list">
+            <div class="item item-divider item-dark" style="font:bold 14px/20px '微软雅黑'; padding:3px 16px">最发烧</div>
+            <ion-scroll direction="x" style="white-space: nowrap;overflow: hidden;width:100%; border-bottom: 1px solid #aaa;padding:6px 6px;margin:6px 0">
+                <img style="width: 28%;border: 1px solid #ccc" src="images/pro1.jpg">
+                <img style="width: 28%;border: 1px solid #ccc" src="images/pro2.jpg">
+                <img style="width: 28%;border: 1px solid #ccc" src="images/pro3.jpg">
+                <img style="width: 28%;border: 1px solid #ccc" src="images/pro4.jpg">
+                <img style="width: 28%;border: 1px solid #ccc" src="images/pro5.jpg">
+                <img style="width: 28%;border: 1px solid #ccc" src="images/pro6.jpg">
+                <img style="width: 28%;border: 1px solid #ccc" src="images/pro7.jpg">
+                <img style="width: 28%;border: 1px solid #ccc" src="images/pro8.jpg">
+            </ion-scroll>
+        </div>
+        <div class="item item-divider item-dark" style="font:bold 14px/20px '微软雅黑'; padding:3px 16px">最酷讯</div>
+        <div class="list card" ng-repeat="item in news">
+            <div class="item">
+                <h2 style="font-weight: bolder">{{item.title}}</h2>
+            </div>
+            <div class="item item-image">
+                <img ng-src="{{item.imgsrc}}">
+            </div>
+            <div class="item" style="padding:6px">
+                <p style="text-overflow: clip;white-space: normal;text-indent: 2em">{{item.text}}</p>
+            </div>
+        </div>
+        <ion-infinite-scroll distance="1%" on-infinite="infiniteScroll()" immediate-check="false">
+        </ion-infinite-scroll>
+    </ion-content>
+    <div style="width:34px;
+            height:34px;
+            border-radius: 34px;
+            text-align: center;
+            line-height:34px;
+            color:black;
+            cursor:pointer;
+            position: absolute;
+            bottom:55px;
+            right:10px;
+            opacity: .7;" ng-click="top()">Top</div>
+</ion-view>
